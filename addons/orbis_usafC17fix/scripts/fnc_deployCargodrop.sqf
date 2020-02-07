@@ -12,7 +12,9 @@ while {_position select 1 > _offset} do {
 	_cargo setVectorDirAndUp [_vectorDirNew, _vectorUpNew];
 	sleep 0.01;
 };
+
 detach _cargo;
+_cargo setVariable ["orbis_inCargo", false, true];
 
 private _chute = "B_Parachute_02_F" createVehicle [0, 0, 100];
 _chute setposASL (getPosASL _cargo);

@@ -1,5 +1,5 @@
 class CfgPatches {
-	class mgm_usafC17fix {
+	class orbis_usafC17fix {
 		name = "Orbis USAF C17 Fix";
 		author = "Orbis2358";
 		requiredVersion = 0.1;

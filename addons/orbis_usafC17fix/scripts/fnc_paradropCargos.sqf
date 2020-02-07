@@ -1,6 +1,6 @@
 params ["_carrier"];
 
-private _cargoList =  _carrier getVariable ["cargoList", []];
+private _cargoList =  _carrier getVariable ["orbis_cargoList", []];
 
 {
 	if (_x in attachedObjects _carrier) then {
