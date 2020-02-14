@@ -4,3 +4,4 @@ rsf_roles_fnc_checkRoleStatus = compile preprocessFileLineNumbers 'rsf_roles\fun
 rsf_roles_fnc_eachFrameHandler = compile preprocessFileLineNumbers 'rsf_roles\functions\fnc_eachFrameHandler.sqf';
 rsf_roles_fnc_roleSelected = compile preprocessFileLineNumbers 'rsf_roles\functions\fnc_roleSelected.sqf';
 rsf_roles_fnc_setRole = compile preprocessFileLineNumbers 'rsf_roles\functions\fnc_setRole.sqf';
+rsf_roles_fnc_updateDialog = compile preprocessFileLineNumbers 'rsf_roles\functions\fnc_updateDialog.sqf';

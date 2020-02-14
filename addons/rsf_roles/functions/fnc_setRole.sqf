@@ -7,9 +7,11 @@ private _weapons = rsf_roles_weapons select (rsf_roles_list find _role);
 _player setVariable ["rsf_roles_role", _role, true];
 _player setVariable ["rsf_roles_weapons", _weapons];
 
+private ["_cargo"];
 {
-	[_x, [true]] call BIS_fnc_removeVirtualWeaponCargo;
-	[_x, _weapons] call BIS_fnc_addVirtualWeaponCargo;
+	_cargo = _x getvariable ["bis_addVirtualWeaponCargo_cargo", [[], [], [], []]];
+	_cargo set [1, _weapons];
+	_x setvariable ["bis_addVirtualWeaponCargo_cargo", _cargo];
 } forEach (missionNamespace getVariable ["rsf_roles_arsenalList", []]);
 
 _player setUnitTrait ["medic", _role isEqualTo "med"];

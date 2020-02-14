@@ -38,7 +38,7 @@ class select_base {
 
 class rsf_roles_select_dialog {
 	idd = -1;
-	onLoad = "missionNamespace setVariable ['rsf_roles_dialogOpen', true]";
+	onLoad = "[] call rsf_roles_fnc_updateDialog; missionNamespace setVariable ['rsf_roles_dialogOpen', true]";
 	onUnload = "missionNamespace setVariable ['rsf_roles_dialogOpen', false]";
 
 	class ControlsBackground {
