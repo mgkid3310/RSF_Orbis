@@ -7,5 +7,5 @@ private _index = rsf_roles_list find _role;
 
 if ((_currentCount select _index) < (_maximumCount select _index)) then {
 	[player, _role] call rsf_roles_fnc_setRole;
-	closeDialog 1;
+	// closeDialog 1;
 };

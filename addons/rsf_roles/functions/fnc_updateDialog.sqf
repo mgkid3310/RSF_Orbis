@@ -12,6 +12,8 @@ ctrlSetText [23508, str (_currentCount select 8)];
 ctrlSetText [23509, str (_currentCount select 9)];
 ctrlSetText [23510, str (_currentCount select 10)];
 ctrlSetText [23511, str (_currentCount select 11)];
+ctrlSetText [23512, str (_currentCount select 12)];
+ctrlSetText [23513, str (_currentCount select 13)];
 
 ctrlSetText [23600, str (_maximumCount select 0)];
 ctrlSetText [23601, str (_maximumCount select 1)];
@@ -25,3 +27,5 @@ ctrlSetText [23608, str (_maximumCount select 8)];
 ctrlSetText [23609, str (_maximumCount select 9)];
 ctrlSetText [23610, str (_maximumCount select 10)];
 ctrlSetText [23611, str (_maximumCount select 11)];
+ctrlSetText [23612, str (_maximumCount select 12)];
+ctrlSetText [23613, str (_maximumCount select 13)];
