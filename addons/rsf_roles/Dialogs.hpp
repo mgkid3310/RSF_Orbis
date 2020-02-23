@@ -123,24 +123,34 @@ class rsf_roles_select_dialog {
 			y = safeZoneY + safeZoneH * 0.40;
 			text = "고정익";
 		};
-		class role_rotarywing: role_base {
+		class role_rotarywing_a: role_base {
 			x = safeZoneX + safeZoneW * 0.505;
 			y = safeZoneY + safeZoneH * 0.45;
-			text = "회전익";
+			text = "공격헬기";
+		};
+		class role_rotarywing_t: role_base {
+			x = safeZoneX + safeZoneW * 0.505;
+			y = safeZoneY + safeZoneH * 0.50;
+			text = "수송헬기";
 		};
 		class role_uav: role_base {
 			x = safeZoneX + safeZoneW * 0.505;
-			y = safeZoneY + safeZoneH * 0.50;
+			y = safeZoneY + safeZoneH * 0.55;
 			text = "무인기";
+		};
+		class role_tank: role_base {
+			x = safeZoneX + safeZoneW * 0.505;
+			y = safeZoneY + safeZoneH * 0.60;
+			text = "기갑";
 		};
 		class role_arti: role_base {
 			x = safeZoneX + safeZoneW * 0.505;
-			y = safeZoneY + safeZoneH * 0.60;
+			y = safeZoneY + safeZoneH * 0.65;
 			text = "포병";
 		};
 		class role_navy: role_base {
 			x = safeZoneX + safeZoneW * 0.505;
-			y = safeZoneY + safeZoneH * 0.65;
+			y = safeZoneY + safeZoneH * 0.70;
 			text = "해군";
 		};
 

@@ -12,7 +12,7 @@ if (missionNamespace getVariable ["rsf_roles_dialogOpen", false]) then {
 };
 
 // vehicle pilot role check
-private _role = player getVariable ["rsf_roles_role", "rf"];
+private _role = player getVariable ["rsf_roles_role", ""];
 private _vehicle = vehicle player;
 
 if ((_vehicle != player) && (driver _vehicle isEqualTo player)) then {
