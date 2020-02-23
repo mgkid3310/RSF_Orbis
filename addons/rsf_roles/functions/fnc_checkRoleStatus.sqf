@@ -12,7 +12,6 @@ private ["_role", "_index"];
 		_index = rsf_roles_list find _role;
 		_currentCount set [_index, (_currentCount select _index) + 1];
 	};
-	_currentCount set [_index, (_currentCount select _index) + 1];
 } forEach _players;
 
 if (side player isEqualTo blufor) then {
