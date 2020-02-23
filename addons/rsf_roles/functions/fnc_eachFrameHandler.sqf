@@ -17,9 +17,10 @@ private _vehicle = vehicle player;
 
 if ((_vehicle != player) && (driver _vehicle isEqualTo player)) then {
 	private _notAllowedFW = !(_role isEqualTo "fw") && (_vehicle isKindOf "Plane");
-	private _notAllowedRW = !(_role isEqualTo "rw") && (_vehicle isKindOf "Helicopter");
+	private _notAllowedRW = !(_role in ["rw_a", "rw_t"]) && (_vehicle isKindOf "Helicopter");
+	private _notAllowedTank = !(_role isEqualTo "tank") && (_vehicle isKindOf "Tank");
 
-	if ((_notAllowedFW || _notAllowedRW) && (isEngineOn _vehicle)) then {
+	if ((_notAllowedFW || _notAllowedRW || _notAllowedTank) && (isEngineOn _vehicle)) then {
 		_vehicle engineOn false;
 	};
 
