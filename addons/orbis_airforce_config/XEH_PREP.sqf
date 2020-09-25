@@ -1,0 +1,12 @@
+orbis_airforce_fnc_addLoadoutToFIR = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_addLoadoutToFIR.sqf";
+orbis_airforce_fnc_checkIsCrew = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_checkIsCrew.sqf";
+orbis_airforce_fnc_eachFrameHandler = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_eachFrameHandler.sqf";
+orbis_airforce_fnc_eventWeaponFire = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_eventWeaponFire.sqf";
+orbis_airforce_fnc_F16AerobaticPostInit = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_F16AerobaticPostInit.sqf";
+orbis_airforce_fnc_F16DAerobaticInit = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_F16DAerobaticInit.sqf";
+orbis_airforce_fnc_F16Loop = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_F16Loop.sqf";
+orbis_airforce_fnc_F16TrainingInit = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_F16TrainingInit.sqf";
+orbis_airforce_fnc_F16TrainingPostInit = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_F16TrainingPostInit.sqf";
+orbis_airforce_fnc_getTargetCode = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_getTargetCode.sqf";
+orbis_airforce_fnc_hasAMS = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_hasAMS.sqf";
+orbis_airforce_fnc_toggleSmoke = compile preProcessFileLineNumbers "orbis_airforce_config\scripts\fnc_toggleSmoke.sqf";
