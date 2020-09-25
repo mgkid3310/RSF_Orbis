@@ -22,14 +22,14 @@ class itc_air_default_heli_uh; */
 class CfgVehicles {
 	class Plane;
 	class Plane_Base_F: Plane {
-		class itc_air: itc_air_default_jet {};
+		// class itc_air: itc_air_default_jet {};
 	};
 	class Plane_CAS_01_base_F: Plane_Base_F {};
 	class Plane_Fighter_03_base_F: Plane_Base_F {};
 
 	class Helicopter;
 	class Helicopter_Base_F: Helicopter {
-		class itc_air: itc_air_default_heli_ah {};
+		// class itc_air: itc_air_default_heli_ah {};
 	};
 
 	// #include "FIR_AV8B_config.hpp"
