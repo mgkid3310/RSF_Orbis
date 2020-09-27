@@ -12,7 +12,7 @@ class CfgPatches {
 #include "CfgEventHandlers.hpp"
 
 #include "baseClasses.hpp"
-// #include "CfgMagazines.hpp"
+#include "CfgMagazines.hpp"
 // #include "CfgWeapons.hpp"
 
 /* class itc_air_default_jet;
